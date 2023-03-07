@@ -1,0 +1,16 @@
+// 25 mins
+Create a class called person:
+- firstName
+- lastName
+- age
+
+Encapsulate the person class such that once an
+instance of it is created it cannot be changed but
+values can be read from it.
+
+Create another class called Employee:
+- occupation
+- employeeId
+
+Ensure that the Employee class is a child class
+to the Person class.
