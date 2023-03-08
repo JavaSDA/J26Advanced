@@ -14,3 +14,14 @@ Create another class called Employee:
 
 Ensure that the Employee class is a child class
 to the Person class.
+
+
+// 30 mins
+Create an abstract class called Shape, and give it two abstract methods:
+- getArea
+- getPerimeter
+
+Create 3 subclasses from the Shape class respectively: Circle, Square and Rectangle
+
+Use a class with a main method to demonstrate the abstraction between shape and its child classes
+as well as the operations of the getArea and getPerimeter methods.
