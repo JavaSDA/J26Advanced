@@ -1,5 +1,8 @@
 package com.company;
 
+import com.company.abstraction.Animal;
+import com.company.abstraction.Dog;
+import com.company.abstraction.Eagle;
 import com.company.ball.Ball;
 import com.company.ball.Spike;
 
@@ -28,6 +31,15 @@ public class Main {
 
     // Encapsulation is hiding data, being able to control read/write access
     // to an object.
+
+    // Inheritance is creating hierarchy between objects in your code.
+    // When you use inheritance, you're saying that the child(subclass) object is a type of
+    // the parent(base).
+
+    // Abstraction is hiding implementation from the users of the class.
+    // Two ways to do abstractions
+    // - Abstract classes
+    // - Interfaces
 
     // Ball is round. - feature
     // Ball has diameter - feature
@@ -62,6 +74,7 @@ public class Main {
         Spike.keepBallRound();
 
 
+        Animal animal = new Eagle("Bingo", 3);
 
     }
 }
