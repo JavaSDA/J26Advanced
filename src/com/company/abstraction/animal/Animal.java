@@ -1,4 +1,4 @@
-package com.company.abstraction;
+package com.company.abstraction.animal;
 
 public abstract class Animal {
     // An abstract class is a blueprint for defining aspects of

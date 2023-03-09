@@ -1,4 +1,4 @@
-package com.company.abstraction.exercises;
+package com.company.abstraction.exercises.shape;
 
 public class Circle extends Shape {
     private int radius;

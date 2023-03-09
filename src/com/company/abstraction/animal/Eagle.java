@@ -1,4 +1,4 @@
-package com.company.abstraction;
+package com.company.abstraction.animal;
 
 public class Eagle extends Animal {
     public Eagle(String name, int age) {

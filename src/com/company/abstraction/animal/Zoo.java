@@ -1,4 +1,4 @@
-package com.company.abstraction;
+package com.company.abstraction.animal;
 
 public class Zoo {
     // an array initialized with objects is set to null for the size of the array

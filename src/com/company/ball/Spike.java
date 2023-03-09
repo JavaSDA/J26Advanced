@@ -19,4 +19,13 @@ public class Spike extends Ball {
         return numOfSpikes;
     }
 
+    public int getNumOfSpikes(int spikes) {
+        return spikes;
+    }
+
+    //Annotation
+    @Override
+    public void bounce() { // Method overriding
+        System.out.println("Spikes don't bounce!");
+    }
 }

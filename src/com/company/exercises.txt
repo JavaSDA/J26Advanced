@@ -25,3 +25,24 @@ Create 3 subclasses from the Shape class respectively: Circle, Square and Rectan
 
 Use a class with a main method to demonstrate the abstraction between shape and its child classes
 as well as the operations of the getArea and getPerimeter methods.
+
+
+
+// 30 mins
+- Create an abstract class called Account add the following properties:
+  - balance (double)
+  - accountNumber (string)
+
+  behaviours:
+  - deposit()
+  - withdraw()
+  - getBalance()
+  - getAccountNo()
+
+ - Create 2 classes called Checking account and Savings Account.
+
+ The savings account comes with the following extra features:
+    - interestRate
+
+   additional behaviour:
+    - setInterestRate

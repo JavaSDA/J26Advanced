@@ -1,8 +1,7 @@
 package com.company;
 
-import com.company.abstraction.Animal;
-import com.company.abstraction.Dog;
-import com.company.abstraction.Eagle;
+import com.company.abstraction.animal.Animal;
+import com.company.abstraction.animal.Eagle;
 import com.company.ball.Ball;
 import com.company.ball.Spike;
 
@@ -41,6 +40,13 @@ public class Main {
     // - Abstract classes
     // - Interfaces
 
+    // Polymorphism is making pieces of your code do different things.
+    // You can make these pieces of code do different things, depending on where
+    // and how they are called.
+
+    // Method overriding
+    // Method overloading
+
     // Ball is round. - feature
     // Ball has diameter - feature
 
@@ -66,7 +72,9 @@ public class Main {
 
         Spike spike = new Spike(true, 20, 100);
 
-        spike.bounce(); // TODO: spikes should not bounce!
+        spike.bounce();
+
+        System.out.println(spike.getNumOfSpikes(4));
 
 //        System.out.println(leatherBall.getNumOfSpikes());
         System.out.println(spike.getDiameter());

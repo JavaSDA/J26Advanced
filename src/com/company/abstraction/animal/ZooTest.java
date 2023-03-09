@@ -1,4 +1,4 @@
-package com.company.abstraction;
+package com.company.abstraction.animal;
 
 import java.util.Arrays;
 

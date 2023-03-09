@@ -1,4 +1,4 @@
-package com.company.abstraction.exercises;
+package com.company.abstraction.exercises.shape;
 
 public abstract class Shape {
 
