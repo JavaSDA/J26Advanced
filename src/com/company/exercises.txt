@@ -46,3 +46,19 @@ as well as the operations of the getArea and getPerimeter methods.
 
    additional behaviour:
     - setInterestRate
+
+   // 40mins
+
+ - Create a class called Bank, it should have these properties
+   - accounts(An array of Account objects)
+   - numOfAccounts(counter to track how many accounts have been created) - int
+
+   behaviours
+   - addAccount(Account account)
+   - findAccount(String accountNumber)
+   - deposit(String accountNumber)
+   - withdraw(String accountNumber)
+   - getBalance(String accountNumber)
+
+   HINT: For deposits, withdrawals and getBalance methods, you can use the findAccount method as
+   a helper method.

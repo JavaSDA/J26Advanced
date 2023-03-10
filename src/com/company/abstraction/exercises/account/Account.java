@@ -4,9 +4,9 @@ public abstract class Account {
     private double balance;
     private String accountNumber;
 
-    public Account(double balance, String accountNumber) {
-        this.balance = balance;
+    public Account(String accountNumber) {
         this.accountNumber = accountNumber;
+        this.balance = 0.0;
     }
 
     public void deposit(double amount) {
