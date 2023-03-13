@@ -62,3 +62,30 @@ as well as the operations of the getArea and getPerimeter methods.
 
    HINT: For deposits, withdrawals and getBalance methods, you can use the findAccount method as
    a helper method.
+
+
+
+   // 35 mins.
+   // 18:55 - 19:30
+   Create a class called Library and add the following fields to it:
+   - books (An Array of Book objects)
+   - numOfBooks (count how many books)
+
+   behaviours:
+   - add Book
+   - searchBookById (Throw the NoBookFoundException if a book is not found)
+
+   Create a class called Book and add the following properties to it:
+   - id
+   - title
+   - author
+   - yearOfRelease
+
+
+   Create a class called NoBookFoundException that inherits from
+   the RuntimeException class. The constructor of this exception should accept a
+   String message parameter for user-friendliness.
+
+   HINT: There is no need to add a cause parameter for the exception.
+
+
