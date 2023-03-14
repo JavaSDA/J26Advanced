@@ -1,7 +1,9 @@
 package com.company.exercises.exception;
 
-// import java.util.Date;
+import com.company.annotation.ComponentInfo;
 
+// import java.util.Date;
+@ComponentInfo(name = "Book", date = "12-04-2020", version = 2)
 public class Book {
 
     private int id;
@@ -20,7 +22,7 @@ public class Book {
         return id;
     }
 
-    // Annotation
+    @Override// Annotation
     public String toString() {
         return "Book{" +
                 "id='" + id + '\'' +

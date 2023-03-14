@@ -4,6 +4,7 @@ import com.company.abstraction.animal.Animal;
 import com.company.abstraction.animal.Eagle;
 import com.company.ball.Ball;
 import com.company.ball.Spike;
+import com.company.ball.Water;
 
 public class Main {
 
@@ -55,7 +56,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        Ball leatherBall = new Ball(true, 40); // instance of the object
+//        Ball leatherBall = new Ball(true, 40); // instance of the object
 //
 //        Ball paperBall = new Ball(true, 10);
 //
@@ -70,19 +71,25 @@ public class Main {
 //        Ball.keepBallRound();
 
 
-        Spike spike = new Spike(true, 20, 100);
+//        Spike spike = new Spike(true, 20, 100);
 
-        spike.bounce();
+//        spike.bounce();
 
-        System.out.println(spike.getNumOfSpikes(4));
+//        System.out.println(spike.getNumOfSpikes(4));
 
 //        System.out.println(leatherBall.getNumOfSpikes());
-        System.out.println(spike.getDiameter());
+//        System.out.println(spike.getDiameter());
 
-        Spike.keepBallRound();
+//        Spike.keepBallRound();
 
 
-        Animal animal = new Eagle("Bingo", 3);
+//        Animal animal = new Eagle("Bingo", 3);
+
+        Water rainWater = new Water();
+        Water springWater = new Water(true, true, true);
+
+        System.out.println(springWater.isColourless());
+        System.out.println(springWater.isTasteless());
 
     }
 }
