@@ -94,17 +94,18 @@ as well as the operations of the getArea and getPerimeter methods.
 
 
    // 30 mins.
-   Create a program to perform basic Arithmetic Mathematical operations(addition, subtraction, multiplication and
-   division) using lambda expressions.
+   // 19:01 - 19:31
+   Create a program to perform basic Arithmetic Mathematical
+   operations(addition, subtraction, multiplication and division) using lambda expressions.
 
    - Create a functional interface called MathOperation as a SAM interface with the abstract method
-   operation(double fNumber, double sNumber) - return double
+   operate(double fNumber, double sNumber) - return double
 
-   - In your class with your main method, Call the MathOperation interface for the different arithmetic operations
-   and implement them as lambda expressions.
+   - In your class with your main method, Call the MathOperation interface for the
+   different arithmetic operations and implement them as lambda expressions.
 
-   - Bonus: Create a method in your Main Class that takes in two doubles as a parameter and a MathOperation parameter as well to
-   calculate numbers based on the selected operation.
+   - Bonus: Create a method in your Main Class that takes in two doubles as a parameter
+   and a MathOperation parameter as well to calculate numbers based on the selected operation.
 
 
 
