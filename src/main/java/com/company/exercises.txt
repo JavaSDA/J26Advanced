@@ -107,6 +107,18 @@ as well as the operations of the getArea and getPerimeter methods.
    - Bonus: Create a method in your Main Class that takes in two doubles as a parameter
    and a MathOperation parameter as well to calculate numbers based on the selected operation.
 
+// 30 mins
+// 18:13 - 18:43
+Set
+- Use the scanner class to accept 6 numbers from the user and
+return them in a sorted manner, using the Set interface - TreeSet
+- Use the same scanner object to accept 5 strings from the user and
+filter the duplicates using a hashset
+- Accept 4 names and use a set to return them in the order the user
+entered them.
 
-
+19:58 - 20:18 (20 mins)
+// Redo or Transform the Zoo class from the animal package project and
+// make sure that it uses a List(preferably an ArrayList instead of an array as
+// it was before.
 
