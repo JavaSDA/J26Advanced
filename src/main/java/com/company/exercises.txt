@@ -122,3 +122,45 @@ entered them.
 // make sure that it uses a List(preferably an ArrayList instead of an array as
 // it was before.
 
+
+25 mins (17:42 - 18:07)
+// Using a list, accept 5 integers from the user and print out
+// the odd numbers and the even numbers (Please use a prompt)
+// Enter a number:
+
+// --- - Odd
+// === - Even
+
+// Odd numbers:
+ ---
+ ---
+ ---
+ ---
+
+// Even Numbers:
+===
+===
+===
+
+35 mins
+// 18:31 - 19:06
+
+// Create a class called Person with the following properties:
+- firstName
+- lastName
+- age
+
+// Create a class called Employee as a subclass to the Person class with properties:
+- occupation
+- salary
+- employeeId
+
+// Create a class called Company with the following properties:
+- companyName
+- List<Employee> employees
+
+Under the Company class implement the averageSalary() method that will
+return the average salary of employees in a company.
+
+Bonus: When testing in your main method, you can use the
+scanner to create the employees if you'd prefer
