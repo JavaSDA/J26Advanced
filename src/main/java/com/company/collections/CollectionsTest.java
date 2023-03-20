@@ -63,7 +63,7 @@ public class CollectionsTest {
 
         // ArrayList is ordered and each item is added to the bottom of the list
         // the items are returned based on their index.
-        List<String> names = new LinkedList<>();
+/*        List<String> names = new LinkedList<>();
                             // index
         names.add("Harry"); // 0
         names.add("Lisa"); // 1
@@ -75,6 +75,73 @@ public class CollectionsTest {
 
 
         System.out.println(names);
+
+        */
+
+        // QUEUE
+        // FIFO - First In First Out
+//        Queue<String> starbucksQueue = new LinkedList<>();
+//        starbucksQueue.size();
+//        throw exceptions
+        // add(E e)
+        // remove()
+        // element()
+
+        // don't throw exceptions
+        // offer(E e) - alternative to add
+        // poll() - alternative to remove
+        // peek() - alternative to element
+
+/*        starbucksQueue.add("David"); //
+        starbucksQueue.offer("Barry");
+        starbucksQueue.offer("Johnson");
+
+
+        System.out.println(starbucksQueue.peek());*/
+
+//        starbucksQueue.poll();
+
+//        starbucksQueue.remove(); // removes from the front of the queue;
+//        starbucksQueue.remove(); // removes from the front of the queue;
+
+//        System.out.println(starbucksQueue);
+
+
+        // Map
+        /*
+        {  // Key    Value
+            "David": 14,
+            "Barry": 15,
+            "Johnson": 16
+         }
+         */
+
+        // Three main implementations of the Map
+        // HashMap
+        // TreeMap
+        // LinkedHashMap
+
+        // 18:33 - 18:48
+
+        Map<String, Integer> peopleAges = new LinkedHashMap<>();
+
+        peopleAges.put("David", 14);
+//        peopleAges.put("Barry", 15);
+        peopleAges.put("Johnson", 16);
+
+        peopleAges.putIfAbsent("Barry", 18);
+
+
+        peopleAges.remove("Barry");
+
+        System.out.println(peopleAges.size());
+        System.out.println(peopleAges.containsKey("Fred"));
+        System.out.println(peopleAges.containsValue(16));
+        System.out.println(peopleAges.keySet());
+
+        System.out.println(peopleAges);
+
+
 
     }
 }
