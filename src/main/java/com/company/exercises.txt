@@ -180,3 +180,21 @@ Output for each country in the map:
 // The capital of ${country} is: ${capital}
 // The capital of ${country} is: ${capital}
 // The capital of ${country} is: ${capital}
+
+40 mins + 15 mins
+// 17:45 - 18:40
+Write a Java program that simulates a phonebook. Your program
+should utilize a Map object that stores the name and phone
+number of each contact in the phonebook.
+
+The program should have the following functionality:
+- Add a new contact to the phonebook by entering a name and phone number
+- Retrieve a contact's phone number by entering their name
+- Print all the contacts in the phonebook
+
+HINTS:
+- use a Map<String, String>,
+- use the scanner to receive input from the user.
+
+SUGGESTIONS:
+- To make retrieving a contact easier stick to using only one word for their names
