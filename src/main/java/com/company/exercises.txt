@@ -199,8 +199,8 @@ HINTS:
 SUGGESTIONS:
 - To make retrieving a contact easier stick to using only one word for their names
 
-
-
+45 mins
+// 17:47 - 18:32
 Create a program that simulates a student enrollment system.
 This program should have the following classes:
 - Student

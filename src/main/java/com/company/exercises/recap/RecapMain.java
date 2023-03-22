@@ -1,5 +1,9 @@
 package com.company.exercises.recap;
 
+import com.company.exercises.recap.enrollment.Course;
+import com.company.exercises.recap.enrollment.EnrollmentSystem;
+import com.company.exercises.recap.enrollment.Major;
+import com.company.exercises.recap.enrollment.Student;
 import com.company.exercises.recap.person.Company;
 import com.company.exercises.recap.person.Employee;
 import com.company.exercises.recap.person.Person;
@@ -10,7 +14,7 @@ import java.util.Scanner;
 
 public class RecapMain {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        /*Scanner scan = new Scanner(System.in);
 
        Person fred = new Person("Fred", "Benson", 23);
        Person george = new Person("George", "Benson", 33);
@@ -49,6 +53,22 @@ public class RecapMain {
         Company google = new Company("Google");
         google.addEmployee(fredEmployee, georgeEmployee, fredEmployee, georgeEmployee);
         System.out.println("Google's average salary: " + google.getAverageSalary());
-        System.out.println(google);
+        System.out.println(google);*/
+
+        Course mat = new Course("Math", "Mat101", "Mr Charles");
+        Course eng = new Course("English", "Eng101", "Mr John");
+
+        Student fred = new Student("Fred", 1, Major.BUSINESS);
+        Student dave = new Student("Dave", 2, Major.COMPUTER_SCIENCE);
+
+        EnrollmentSystem universityOfEstonia = new EnrollmentSystem();
+
+        universityOfEstonia.addStudent(fred); // add students
+        universityOfEstonia.addCourse(mat); // add course
+        universityOfEstonia.enrollStudentInCourse(fred, mat); // enroll student
+        System.out.println(universityOfEstonia.getStudentsForCourse(mat)); // get students in a course
+        System.out.println(universityOfEstonia.getCoursesForStudent(fred)); // get courses enrolled by a student
+//        universityOfEstonia.removeStudent(fred);
+//        universityOfEstonia.removeCourse(mat);
     }
 }
