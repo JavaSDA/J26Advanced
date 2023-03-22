@@ -10,7 +10,7 @@ public class EnumTest {
         System.out.println(FoodMenu.LUNCH.getAppetizer());
         System.out.println(FoodMenu.DINNER.getAppetizer());
 
-        // Streams
+        // Streams TODO: Scan the documentation together with the class.
         // Stream is a data structure that doesn't store elements.
 
 //        System.out.println(Arrays.toString(FoodMenu.values()));

@@ -198,3 +198,40 @@ HINTS:
 
 SUGGESTIONS:
 - To make retrieving a contact easier stick to using only one word for their names
+
+
+
+Create a program that simulates a student enrollment system.
+This program should have the following classes:
+- Student
+Fields:
+- id
+- name
+- major
+- Collection of courses
+
+- Course
+Fields:
+- name
+- course code
+- teacher's name
+- collection of students offering this particular course.
+
+- EnrollmentSystem
+Fields:
+- Collection of students
+- Collection of courses
+
+behaviours/methods:
+- adding students or courses
+- removing students or courses
+- enroll a student in a course (decide on  a good name for the method)
+
+It should also have the following enum, called Major
+- This should contain the majors offered by the
+system when a student is enrolling.
+ex: COMPUTER_SCIENCE, BUSINESS
+
+P.S Add a toString() method to each object except
+the enum and the EnrollmentSystem class.
+
