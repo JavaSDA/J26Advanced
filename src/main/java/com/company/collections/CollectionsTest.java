@@ -80,7 +80,7 @@ public class CollectionsTest {
 
         // QUEUE
         // FIFO - First In First Out
-//        Queue<String> starbucksQueue = new LinkedList<>();
+        Queue<String> starbucksQueue = new LinkedList<>();
 //        starbucksQueue.size();
 //        throw exceptions
         // add(E e)
@@ -140,8 +140,6 @@ public class CollectionsTest {
         System.out.println(peopleAges.keySet());
 
         System.out.println(peopleAges);
-
-
 
     }
 }

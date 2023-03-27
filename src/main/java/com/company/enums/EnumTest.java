@@ -1,6 +1,8 @@
 package com.company.enums;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class EnumTest {
@@ -8,9 +10,9 @@ public class EnumTest {
 //        System.out.println(Sandwich.PI.getPiValue());
         System.out.println(FoodMenu.BREAKFAST.getMain());
         System.out.println(FoodMenu.LUNCH.getAppetizer());
-        System.out.println(FoodMenu.DINNER.getAppetizer());
+        System.out.println(FoodMenu.DINNER.getDessert());
 
-        // Streams TODO: Scan the documentation together with the class.
+        // Streams
         // Stream is a data structure that doesn't store elements.
 
 //        System.out.println(Arrays.toString(FoodMenu.values()));
@@ -23,6 +25,12 @@ public class EnumTest {
         // - an "argumentless" method is called on the input argument
 
 //        Stream.of(FoodMenu.values()).forEach(value -> System.out.println(value));
-        Stream.of(FoodMenu.values()).forEach(System.out::println); // syntactical sugar
+//        List<String> words = Stream
+//                .of(FoodMenu.values())
+//                .filter(value -> !value.equals(FoodMenu.LUNCH))
+//                .map(value -> value.getMain()) // .map(FoodMenu::getAppetizer)
+//                .collect(Collectors.toList()); // syntactical sugar
+//
+//        System.out.println(words);
     }
 }

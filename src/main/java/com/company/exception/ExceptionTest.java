@@ -10,9 +10,13 @@ public class ExceptionTest {
             System.out.println(val);
 
             System.out.println("This is after the exception");
-        } catch (ArrayIndexOutOfBoundsException e) {
+        } catch (RuntimeException e) {
             System.out.println(e.getMessage());
-        } finally {
+        }
+//        catch(ArrayIndexOutOfBoundsException e) {
+//
+//        }
+        finally {
             System.out.println("This is from the finally block");
         }
     }
