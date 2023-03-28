@@ -1,0 +1,47 @@
+// 30 mins
+Create a class called Person with the following fields:
+- fullName
+- age
+- gender
+Use encapsulation to protect these fields from external access.
+Implement getters and setters for the fields,
+
+Create a custom exception, called InvalidAgeException, that inherits from the
+Exception class. This exception should be thrown when a person object with an age
+less than 0 or greater than 120 passed in.
+
+Create a class called PersonDatabase that uses a Map, (choose your implementation), to store
+Person objects. The keys of the map should be the name of the person.
+Implement methods to add, remove, and retrieve Person objects from the database.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 40 mins
+Create an Enum called Gender with the constants MALE and FEMALE. Modify the person
+class to use this type for the gender field instead of a String.
+Add a method in the PersonDatabase, called filterByGender(Gender gender) that takes
+in a Gender enum as a parameter and returns a list of Person objects that match that gender.
+
+Create a functional interface called AgeFilter, that takes a person object as input and returns
+a boolean, if the person based on a check to see if the person is of a certain age. Implement the
+interface using a lambda expression that filters Person objects based on their age.
+
+Create a method called getAverageAge in the PersonDatabase that uses a stream to calculate the age of
+all the person objects in the database.
+
+Create a method called getOldestPerson in the PersonDatabase that uses a stream to calculate or find the person
+with the highest age.
+

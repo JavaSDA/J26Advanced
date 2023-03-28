@@ -3,9 +3,9 @@ package com.company.practicalEx;
 public class Person {
     private String fullName;
     private int age;
-    private String gender;
+    private Gender gender;
 
-    public Person(String fullName, int age, String gender) throws InvalidAgeException {
+    public Person(String fullName, int age, Gender gender) throws InvalidAgeException {
         if (age < 0 || age > 120) throw new InvalidAgeException("Age must be between 0 and 120");
         this.fullName = fullName;
         this.age = age;
@@ -29,11 +29,11 @@ public class Person {
         this.age = age;
     }
 
-    public String getGender() {
+    public Gender getGender() {
         return gender;
     }
 
-    public void setGender(String gender) {
+    public void setGender(Gender gender) {
         this.gender = gender;
     }
 }
