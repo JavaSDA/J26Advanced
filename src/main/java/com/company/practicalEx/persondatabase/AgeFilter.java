@@ -1,4 +1,4 @@
-package com.company.practicalEx;
+package com.company.practicalEx.persondatabase;
 
 @FunctionalInterface
 public interface AgeFilter {

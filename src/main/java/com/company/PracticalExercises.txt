@@ -45,3 +45,37 @@ all the person objects in the database.
 Create a method called getOldestPerson in the PersonDatabase that uses a stream to calculate or find the person
 with the highest age.
 
+
+
+
+
+
+
+
+
+// 35 mins. 17:38 - 18:13
+Create a class called Calculator, and create methods for addition, subtraction,
+division, and multiplication. Implement these methods using exceptions to handle
+arithmetic related errors(e.g Division by zero). Use functional programming to implement
+the actual method operations.
+
+
+
+// 35 mins. 18:58 - 19:33
+Create a Book class with the properties:
+- title
+- author
+- price
+
+Create a BookCatalogue class to manage a collection of Book objects.
+Implement the following behaviours in the BookCatalogue class.
+- Add a book to the catalogue
+- Remove a book from the catalogue
+- Search for a book by author
+- search for a book by title
+- Get the total price of all the books available in the catalogue
+
+Use lambda expressions to implement the respective search methods by title and by author
+
+
+

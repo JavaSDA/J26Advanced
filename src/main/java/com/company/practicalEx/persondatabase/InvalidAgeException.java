@@ -1,4 +1,4 @@
-package com.company.practicalEx;
+package com.company.practicalEx.persondatabase;
 
 public class InvalidAgeException extends Exception {
     public InvalidAgeException(String message) {

@@ -1,4 +1,4 @@
-package com.company.practicalEx;
+package com.company.practicalEx.persondatabase;
 
 import java.util.*;
 
