@@ -79,3 +79,56 @@ Use lambda expressions to implement the respective search methods by title and b
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 35 mins 17:48 - 18:23
+Create a class called TemperatureConverter that has methods convert
+temperature between Celsius and Fahrenheit, Use exceptions to return errors
+when values that are outside of range are entered.
+For celsius, the absolute zero is -273C, if someone enters a value lower than this,
+it should throw an exception. (HINT: IllegalArgumentException)
+
+or for fahrenheit, -459F.
+
+Use functional programming to implement the respective conversion methods
+for both the fahrenheit and celsius methods.
+
+For context, the methods can be named as such:
+convertToCelsius(double fahrenheit);
+convertToFahrenheit(double celsius);
+
+Formulas:
+convertToCelsius = (fah - 32) / 1.8
+convertToFahrenheit = (cel * 1.8) + 32
+
+
+
+
+
+// 35 mins 19:31 - 20:06
+Create an object called Product with the properties:
+- name
+- price
+- quantity
+
+
+Create another object called Inventory and implement the following
+behaviours using streams.
+- Return a list of products whose price is less than a specified value
+- Return a list of products whose quantity is greater than or equal to 10.
+- Return the total sum of the prices of all the goods, in the inventory
+- Return the average price of all the products in the inventory
+- Return the most expensive product in the inventory
+
+
