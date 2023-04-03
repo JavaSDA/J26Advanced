@@ -131,4 +131,33 @@ behaviours using streams.
 - Return the average price of all the products in the inventory
 - Return the most expensive product in the inventory
 
+// 30 mins. 17:45 - 18:15
+Create an interface called Resizable with a method:
+- resize(double resizeBy)
+
+Create two other objects, Rectangle and Circle that will implement the
+Resizable interface and resize a specified shape by scaling its
+dimensions by the specified value in the method call.
+
+
+
+
+40 mins. 19:05 - 19: 45
+Create a class called Employee with the following properties:
+- firstName
+- lastName
+- salary
+- age
+
+Create a class called Company that holds a collection of employee objects.
+In the company class, implement the following behaviour, WITHOUT using streams.
+- getAverageSalary()
+- getOldestEmployee()
+- getRandomEmployee()
+
+For the getRandomEmployee(), Assume that you were given a task to create
+a roster for employees that will decide who will work the
+night shift based on a random basis. The method should return a random employee
+whenever it is called.
+
 
