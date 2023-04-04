@@ -161,3 +161,64 @@ night shift based on a random basis. The method should return a random employee
 whenever it is called.
 
 
+
+
+
+
+
+35 mins 17:40 - 18:15
+Write a program that generates a random password of a given length.
+The password should contain a mix of uppercase and lowercase letters, digits.
+Use a StringBuilder to build the password and a Random object to generate the
+characters. Use the scanner to make the program interactive.
+
+========================================================
+What's the length of password to gen?: 10
+Your gen password is: wfeo2232411mnonwe
+
+
+40 mins 19:13 - 19:53
+Write a program that calculates the sum of the squares of
+the first 10 positive integers. Use a lambda expression to map
+each integer and then accumulate or sum the resulting stream of
+integers to a single method using the reduce() method.
+
+Write a program that reads a list of words from the console and prints
+out the longest word. Use a lambda expression to find the maximum
+length of the words.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
