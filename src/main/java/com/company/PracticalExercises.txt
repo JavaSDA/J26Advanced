@@ -192,8 +192,28 @@ length of the words.
 
 
 
+1hr 10mins - 17:45 - 18:55
+== Create a Task class with fields for the following:
+ - description
+ - dueDate
+ - priority
+ - status/completionStatus
 
+== Create a custom exception called InvalidInputException that will handle
+errors when parsing user input for this project
 
+== Create a separate class called TaskList to manage entities of the Task object above
+- use a collection to store tasks
+also add the following features:
+- adding a task
+- completing a task
+- view all tasks
+- view overdue tasks
+
+== You can create a menu to display the options that the user can select when
+operating this program, using the Scanner to receive input from such a user.
+
+Bonus: Use streams to implement filters, sorts or comparisons as needed.
 
 
 
